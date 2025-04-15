@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photographers Gallery ZA - Studio Photography</title>
+	<link rel="short icon" href="../images/logo.png" />
+	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/lightbox.css" media="screen">
+	<script type="text/javascript" src="../js/index.js"></script>
+	<script src="../js/jquery.js"></script>
+	<script src="../js/lightbox.js"></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="UTF-8">
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-59407945-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</head>
+<body id="body">
+	<div class="header2">
+		<h1>
+			Studio Photography
+			<a href="../index.html?id=photo"><img src="../images/home.png" style="float: left" height="30px"/></a>
+		</h1>
+	</div>
+	<div class="mainDiv2" id="mainDiv">
+		<div class="side" id="side">
+		<ul class="subMenu">
+			<li onclick="read2('flash/info', '1');" id="1">Information</li>
+			<li onclick="read2('flash/street', '2');" id="2">Street Dreams</li>
+			<li style="height: 21px; width: 150px;" onclick="read2('flash/bobson', '3');" id="3">Bobson Studio</li>
+			<li onclick="read2('flash/qampi', '4');" id="4">Lindeka Qampi</li>
+		</ul>
+		</div>
+		<div class="otherSide" id="otherSide">
+			<div class="imgDiv" id="fade1">
+				<img class="imgShadow" src="../images/flash/home/6.jpg" id="imgToLoad" width="150px"/>
+			</div>
+			<div class="imgDiv" id="fade2">
+				<img class="imgShadow" src="../images/flash/home/10.jpg" id="imgToLoad" width="150px"/>
+			</div>
+			<div class="imgDiv" id="fade3">
+				<img class="imgShadow" src="../images/flash/home/12.jpg" id="imgToLoad" width="150px"/>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
